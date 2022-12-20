@@ -1,5 +1,4 @@
 package Geometria3D;
-
 public class Piramide extends Formulas3D{
     private double base;
     private double altura;

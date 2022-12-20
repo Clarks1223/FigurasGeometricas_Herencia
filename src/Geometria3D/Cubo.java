@@ -1,5 +1,4 @@
 package Geometria3D;
-
 public class Cubo extends Formulas3D{
     private double lado;
     public Cubo (double lado) {

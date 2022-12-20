@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54aa257-0305-47e8-8b4b-408d64836aae" name="Changes" comment="Add MenuPrincipal, Menu 2D">
-      <change afterPath="$PROJECT_DIR$/src/Geometria2D/Heptagono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria2D/Hexagono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geometria2D/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria2D/Cuadrado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geometria2D/Pentagono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria2D/Pentagono.java" afterDir="false" />
+    <list default="true" id="c54aa257-0305-47e8-8b4b-408d64836aae" name="Changes" comment="Agregar superclase y subclases">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,6 +73,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add MenuPrincipal, Menu 2D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add MenuPrincipal, Menu 2D" />
+    <MESSAGE value="Agregar superclase y subclases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar superclase y subclases" />
   </component>
 </project>

@@ -97,4 +97,17 @@ public class Main {
         var=sc.nextDouble();
         return var;
     }
+    static int Menu3D(){
+        int op;
+        System.out.println("MENU FIGURAS 3D");
+        System.out.println("1. Cilindro");
+        System.out.println("2. Cono");
+        System.out.println("3. Cubo");
+        System.out.println("4. Esfera");
+        System.out.println("5. Piramide");
+        System.out.println("0. Regresar al menu Principal");
+        System.out.print("Opcion: ");
+        op=sc.nextInt();
+        return op;
+    }
 }

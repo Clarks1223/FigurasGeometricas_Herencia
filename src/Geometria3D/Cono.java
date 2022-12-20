@@ -1,5 +1,4 @@
 package Geometria3D;
-
 public class Cono extends Formulas3D{
     private double radio;
     private double generatriz;
