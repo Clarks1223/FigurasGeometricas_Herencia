@@ -6,7 +6,7 @@ public class Main {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         DecimalFormat dcf=new DecimalFormat("#.00");
-        int menu=1, submenu=1;
+        int menu=1, submenu=1, op1=1;
         double var1, var2, var3;
         while (menu!=0){
             menu=MenuPrincipal();
@@ -64,9 +64,62 @@ public class Main {
                     }
                     break;
                 case 2:
+                    while(op1!=0) {
+                        op1 = Menu3D();
+                        switch (op1) {
+                            case 1:
+                                System.out.println("***CILINDRO***");
+                                System.out.print("Ingrese el radio: ");
+                                var1 = sc.nextDouble();
+                                System.out.print("Ingrese la altura: ");
+                                var2 = sc.nextDouble();
+                                Cilindro cil = new Cilindro(var1,var2);
+                                System.out.println("Area de cilindro -> "+dcf.format(cil.getArea()));
+                                System.out.println("Volumen de cilindro -> "+dcf.format(cil.getVolumen()));
+                                break;
+                            case 2:
+                                System.out.println("***CONO***");
+                                System.out.print("Ingrese el radio: ");
+                                var1 = sc.nextDouble();
+                                System.out.print("Ingrese la generatriz: ");
+                                var2 = sc.nextDouble();
+                                System.out.print("Ingrese la altura: ");
+                                var3 = sc.nextDouble();
+                                Cono cn = new Cono(var1,var2,var3);
+                                System.out.println("Area de cono -> "+dcf.format(cn.getArea()));
+                                System.out.println("Volumen de cono -> "+dcf.format(cn.getVolumen()));
+                                break;
+                            case 3:
+                                System.out.println("***CUBO***");
+                                var1=guarDato();
+                                Cubo cb = new Cubo(var1);
+                                System.out.println("Area de cubo -> "+dcf.format(cb.getArea()));
+                                System.out.println("Volumen de cubo -> "+dcf.format(cb.getVolumen()));
+                                break;
+                            case 4:
+                                System.out.println("***ESFERA***");
+                                System.out.print("Ingrese el radio: ");
+                                var1 = sc.nextDouble();
+                                Esfera esf = new Esfera(var1);
+                                System.out.println("Area de esfera -> "+dcf.format(esf.getArea()));
+                                System.out.println("Volumen de esfera -> "+dcf.format(esf.getVolumen()));
+                                break;
+                            case 5:
+                                System.out.println("***PIRAMIDE***");
+                                System.out.print("Ingrese la base: ");
+                                var1 = sc.nextDouble();
+                                System.out.print("Ingrese la altura: ");
+                                var2 = sc.nextDouble();
+                                Piramide pir = new Piramide(var1,var2);
+                                System.out.println("Area de piramide -> "+dcf.format(pir.getArea()));
+                                System.out.println("Volumen de piramide -> "+dcf.format(pir.getVolumen()));
+                                break;
+                        }
+                    }
                     break;
             }
         }
+        menu = 1;
     }
     static int MenuPrincipal(){
         int op;
