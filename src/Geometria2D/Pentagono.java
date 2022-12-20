@@ -3,9 +3,8 @@ package Geometria2D;
 public class Pentagono extends Formulas{
     private double lado;
     private double apotema;
-    Pentagono(double lado, double apotema){
+    public Pentagono(double lado){
         this.lado=lado;
-        this.apotema=apotema;
         calcArea();
         calcPerimetro();
     }
@@ -17,6 +16,11 @@ public class Pentagono extends Formulas{
     protected void calcPerimetro(){
         perimetro=lado*5;
     }
+
+    public double getApotema() {
+        return apotema=calcApotema();
+    }
+
     public double calcApotema(){
         return apotema=lado/1.45;
     }

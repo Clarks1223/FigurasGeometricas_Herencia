@@ -3,9 +3,9 @@ package Geometria2D;
 public class Cuadrado extends Formulas{
     private double lado;
     private double diagonal;
-    public Cuadrado(double lado, double diagonal){
+    public Cuadrado(double lado){
         this.lado=lado;
-        this.diagonal=diagonal;
+        this.diagonal=0;
         calcArea();
         calcPerimetro();
     }
@@ -18,5 +18,9 @@ public class Cuadrado extends Formulas{
     }
     public void calcDiagonal(){
         diagonal=lado*Math.sqrt(2);
+    }
+
+    public double getDiagonal() {
+        return diagonal;
     }
 }
