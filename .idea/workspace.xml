@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c54aa257-0305-47e8-8b4b-408d64836aae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Cilindro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Cono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Cubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Esfera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Formulas3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria3D/Piramide.java" afterDir="false" />
+    <list default="true" id="c54aa257-0305-47e8-8b4b-408d64836aae" name="Changes" comment="Add MenuPrincipal, Menu 2D">
+      <change afterPath="$PROJECT_DIR$/src/Geometria2D/Heptagono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometria2D/Hexagono.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometria2D/Cuadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria2D/Cuadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometria2D/Pentagono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria2D/Pentagono.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,8 +50,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671498662806</updated>
-      <workItem from="1671498664429" duration="2628000" />
+      <workItem from="1671498664429" duration="4691000" />
     </task>
+    <task id="LOCAL-00001" summary="Add MenuPrincipal, Menu 2D">
+      <created>1671501348800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671501348800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add MenuPrincipal, Menu 2D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MenuPrincipal, Menu 2D" />
   </component>
 </project>
